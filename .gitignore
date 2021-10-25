@@ -2,3 +2,4 @@ node_modules/
 package-lock.json
 video.mp4
 video.mkv
+__pycache__/

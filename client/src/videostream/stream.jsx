@@ -4,8 +4,9 @@ function Stream(props) {
     return (
         <div >
             <header>STREAM</header>
-            <div>
-            <video src="http://localhost:5000/live" width='540' controls></video>
+            <br />
+            <div> 
+            <video src="http://localhost:5000/live" width='1080' height='500' controls></video>
             </div>
         </div>
     );
