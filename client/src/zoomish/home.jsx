@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Peer from 'simple-peer';
 import io from 'socket.io-client';
-import './style.css';
+import './home.css';
 
 const socket = io.connect('http://localhost:5000');
 
